@@ -1,0 +1,42 @@
+body {
+	display: flex; 
+	flex-direction: column;
+	 align-items: center; 
+	 height:100px; 
+	 background-color: #f3e5f5;
+	 font-family: 'Arial', sans-serif;
+	}
+
+	.header{
+		width:100%;
+		background-color: #fccae5;
+		padding: 20px 0;
+		text-align:center;
+		color:white;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+
+	.profile-image img {
+		width:100px; 
+		height:100px;
+		border-radius:50%;
+		border: 2px solid #6a1b9a;
+	}
+
+	.container {
+		background-color: #ffffff;
+		pading: 20px;
+		border:1px solid #ed547c; /*hot pink border*/ 
+		border-radius: 8px;
+		box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+		width:320px;
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.form-group {
+		margin-bottom: 15px;
+		text-align: center;
+
+}
+}
